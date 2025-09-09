@@ -159,3 +159,111 @@ header .pnv a:hover {
 }
 
 
+/* Responsividade geral */
+@media (max-width: 1200px) {
+  main {
+    padding: 60px 15px;
+    font-size: 0.95rem;
+  }
+
+  .sobre-mim h1 {
+    font-size: 2rem;
+  }
+
+  .sobre-mim h2 {
+    font-size: 1.2rem;
+  }
+
+  .imagem-perfil img {
+    width: 140px;
+  }
+
+  header .pnv ul li {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    padding: 50px 10px;
+    font-size: 0.9rem;
+  }
+
+  .sobre-mim h1 {
+    font-size: 1.8rem;
+  }
+
+  .sobre-mim h2 {
+    font-size: 1.1rem;
+  }
+
+  .imagem-perfil img {
+    width: 120px;
+  }
+
+  header .pnv ul li {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sobre-mim {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+
+  .sobre-mim h1 {
+    font-size: 1.6rem;
+  }
+
+  .sobre-mim h2 {
+    font-size: 1rem;
+  }
+
+  .sobre-mim p {
+    font-size: 1rem;
+  }
+
+  .imagem-perfil img {
+    width: 100px;
+  }
+
+  header .pnv ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header .pnv ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 40px 5px;
+  }
+
+  .sobre-mim h1 {
+    font-size: 1.4rem;
+  }
+
+  .sobre-mim h2 {
+    font-size: 0.95rem;
+  }
+
+  .sobre-mim p {
+    font-size: 0.95rem;
+  }
+
+  .imagem-perfil img {
+    width: 80px;
+  }
+
+  header .pnv {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+}
+
